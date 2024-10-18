@@ -1,0 +1,88 @@
+body{
+    height: 100vh;
+    background: linear-gradient(darkblue, black);
+
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal img{
+    height: 300px;
+}
+
+.principal{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+
+.saudacao{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    
+    font-weight: bold;
+    color: white;
+}
+
+#saudacao{
+    background-color: rgba(128, 128, 128, 0.445);
+    padding: 15px;
+
+    border-radius: 20px;
+    width: 100%;
+
+    box-shadow: -2px -2px white;
+}
+.data{
+    background-color: rgba(128, 128, 128, 0.445);;
+    
+    display: flex;
+    padding: 15px;
+    width: 92%;
+    border-radius: 20px;
+
+    justify-content: center;
+    box-shadow: -2px -2px white;
+
+    color: white;
+    font-weight: bold;
+}
+.relogio{
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.445);;
+
+    padding: 15px;
+    display: flex;
+
+    width: 92%;
+    justify-content: center;
+
+    border-radius: 20px;
+    box-shadow: -2px -2px white;
+}
+
+.relogio div{
+    background-color: black;
+    padding: 5px;
+
+    border-radius: 20px;
+}
+
+.dois_pontos{
+    padding: 5px;
+}
+
+.background_dia{
+    background: linear-gradient(orange yellow);
+}
+.background_manha{
+    background: linear-gradient(orange rgb(172, 53, 83));
+}

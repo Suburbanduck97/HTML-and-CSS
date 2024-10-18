@@ -1,0 +1,129 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.urna{
+    background-color: rgb(219, 217, 217);
+    display: flex;
+
+    width: 60%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    padding: 40px;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+}
+
+#tela{
+    background-color: #D7E7FE;
+    padding: 10px;
+
+    height: 400px;
+    width: 600px;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+#tela img{
+    height: 400px;
+    width: 370px;
+    border: none;
+}
+
+.botoes{
+    display: flex;
+
+    flex-direction: column;
+    background-color: rgb(54, 53, 53);
+
+    height: 380px;
+    width: 300px;
+
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+    border-radius: 10px;
+    background-attachment: fixed;
+}
+
+.botoes button{
+    
+    border-radius: 5px;
+    height: 60px;
+    width: 90px;
+
+    text-align: left;
+    font-size: 15px;
+
+    background-color: rgb(54, 53, 53);
+    color: white;
+    font-weight: bold;
+
+    
+}
+
+.botoes_confirma button{
+    display: inline-block;
+
+    width: 90px;
+    background-color: white;
+
+    font-size: 14px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.botoes button:hover{
+    background-color: rgba(128, 128, 128, 0.479);
+    cursor: pointer;
+}
+
+#branco{
+    background-color: white;
+}
+#laranja{
+    background-color: orange;
+}
+#verde{
+    background-color: rgb(57, 182, 57);
+}
+
+/* Tela da Urna */
+#tela{
+    display: flex;
+    justify-content: left;
+
+    flex-direction: column;
+}
+
+#votos{
+    display: flex;
+    background-color: grey;
+    width: auto;
+}
+
+#campo1{
+    background-color: grey;
+    display: flex;
+    width: 10px;
+}
+#campo2{
+    background-color: grey;
+    display: flex;
+    width: 10px;
+
+    
+    border: 10px;
+    border-color: black;
+}
