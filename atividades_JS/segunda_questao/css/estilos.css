@@ -1,0 +1,63 @@
+body{
+    height: 100vh;
+    background: url(../images/academy_wallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal{
+    background: rgb(0, 0, 0);
+
+    padding: 20px;
+
+    height: 440px;
+    width: 320px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+
+    color: white;
+}
+
+.inputs input{
+    width: 313px;
+    height: 35px;
+}
+
+.principal button{
+    height: 45px;
+    cursor: pointer;
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(38, 233, 38);
+}
+
+.principal button:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.resultado div{
+    background-color: rgba(252, 252, 252, 0.103);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 20px;
+    color: rgb(38, 233, 38);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+
